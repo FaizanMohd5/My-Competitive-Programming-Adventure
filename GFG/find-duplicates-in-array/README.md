@@ -45,3 +45,11 @@ Complete the function duplicates() which takes array a[] and n as input as param
 100%
 ### Attempts No.: 
 1
+
+# Related problems
+
+[a link](https://github.com/user/repo/blob/branch/other_file.md](https://practice.geeksforgeeks.org/problems/even-and-odd/1?page=1&difficulty=Easy&sortBy=submissions)https://practice.geeksforgeeks.org/problems/even-and-odd/1?page=1&difficulty=Easy&sortBy=submissions)
+
+[a link](https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?page=1&difficulty=Easy&sortBy=submissions)
+
+[a link](https://practice.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1?page=1&difficulty=Easy&sortBy=submissions)
