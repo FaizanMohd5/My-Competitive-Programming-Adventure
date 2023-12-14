@@ -1,41 +1,73 @@
 #### Using only StringBuilder: 
 
 class Solution {
+
     public String removeStars(String s) {
-        StringBuilder result = new StringBuilder("");
-        for(char c: s.toCharArray()){
-            if(c!='*'){
-                result.append(Character.toString(c));
-            }
-            else {
-                result.deleteCharAt(result.length() - 1);
-            }
-        }
-        return result.toString();
+
+	StringBuilder result = new StringBuilder("");
+        
+	for(char c: s.toCharArray()){
+        
+	    if(c!='*'){
+            
+		result.append(Character.toString(c));
+            
+	    }
+            
+	    else {
+            
+		result.deleteCharAt(result.length() - 1);
+            
+	    }
+        
+	}
+        
+	return result.toString();
+
     }
+
 }
 
 #### Using Stack
 
 class Solution {
+
     public String removeStars(String s) {
-        Stack<Character> stack=new Stack<>();
-        for(char c : s.toCharArray()){
-            if( c != '*' ) {
-                stack.push(c);
-            }
-            else{
-                stack.pop();
-            }
-        }
-        if(stack.size()==0)
-			return "";
-        StringBuilder result = new StringBuilder();
-        while (!stack.isEmpty()) {
-            result.insert(0, stack.pop());
-        }
-        return result.toString();
+    
+	Stack<Character> stack=new Stack<>();
+        
+	for(char c : s.toCharArray()){
+        
+	    if( c != '*' ) {
+            
+		stack.push(c);
+            
+	    }
+            
+	    else{
+            
+		stack.pop();
+        
+	    }
+        
+	}
+        
+	if(stack.size()==0)
+	
+   		return "";
+        
+	StringBuilder result = new StringBuilder();
+        
+	while (!stack.isEmpty()) {
+        
+	    result.insert(0, stack.pop());
+        
+	}
+        
+	return result.toString();
+
     }
+
 }
 
 #### Difference: 
