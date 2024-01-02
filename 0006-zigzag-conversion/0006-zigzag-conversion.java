@@ -9,6 +9,7 @@ class Solution {
         }
         boolean flag = false;
         int k = 0;
+
         
         for(int i=0; i<s.length(); i++, k=flag?k+1:k-1){
             array.get(k).append(s.charAt(i));
