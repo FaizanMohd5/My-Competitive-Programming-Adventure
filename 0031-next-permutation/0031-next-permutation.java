@@ -28,6 +28,7 @@ class Solution {
             // step 3 reverse the rest right half
             reverse(nums,ind1+1);
         }
+
         
     }
     
